@@ -46,6 +46,8 @@ public class Logic
      */
     @Override
     public void process() {
+        /* default client class from the skeleton code */
+        /*
         Account acct1 = new Account(mOut);
         Account acct2 = new Account(mOut);
 
@@ -64,6 +66,10 @@ public class Logic
         acct2.displayBalance();
         acct2.withdrawal(300);
 
-        mOut.println(acct1.toString());
+        mOut.println(acct1.toString()); */
+
+        Account acct1 = new Account(mOut, "Bill", 738924, 231.48);
+        Account acct2 = new Account(mOut, "Joe", 894730, 0);
+
     }
 }

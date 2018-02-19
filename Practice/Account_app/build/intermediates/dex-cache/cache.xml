@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="D:\Android-Project\Android-Java\Practice\Account_app\app\libs\mobilecloud.handin-1.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d0ffa75b489bf8eb2a13b37de382793f726a44f4">
+        <dex dex="D:\Android-Project\Android-Java\Practice\Account_app\app\build\intermediates\transforms\dex\debug\folders\1000\2\mobilecloud.handin-1.0.0_176165224414b32e9c280cd812ddd2270d553e33\classes.dex" />
+    </item>
+
+</items>

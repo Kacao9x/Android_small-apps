@@ -22,18 +22,19 @@ public class Account {
     /**
      * Name of the account holder.
      */
-    String name;
+    //String name;
+    private String name;
 
     /**
      * Number of the account.
      */
-    int number;
-
+//    int number;
+    private int number;
     /**
      * Current balance in the account.
      */
-    double balance;
-
+//    double balance;
+    private double balance;
     /**
      * Constructor initializes the field
      */
@@ -41,23 +42,33 @@ public class Account {
         mOut = out;
     }
 
+    public Account(OutputInterface out, String newName, int newNumber) {
+        mOut = out;
+        this.name = newName;
+        this.number = newNumber;
+    }
+    public Account(OutputInterface out, String newName, int newNumber, double newDeposit) {
+        this(out, newName, newNumber);
+        this.balance = newDeposit;
+    }
+
     /**
      * Deposit @a amount into the account.
      */
-    public void deposit(double amount) {
-        balance += amount;
-    }
+//    public void deposit(double amount) {
+//        balance += amount;
+//    }
 
     /**
      * Withdraw @a amount from the account.  Prints "Insufficient
      * Funds" if there's not enough money in the account.
      */
-    public void withdrawal(double amount) {
-        if (balance > amount)
-            balance -= amount;
-        else 
-            mOut.println("Insufficient Funds");
-    }
+//    public void withdrawal(double amount) {
+//        if (balance > amount)
+//            balance -= amount;
+//        else
+//            mOut.println("Insufficient Funds");
+//    }
 
     /**
      * Display the current @a amount in the account.
@@ -67,5 +78,42 @@ public class Account {
                      + number
                      + " is " 
                      + balance);
+    }
+
+    /* mutator: set the value for the object */
+    public void setName(String name) {
+        this.name = name;
+    }
+    public void setMoney(double amount) {
+        this.balance = amount;
+    }
+    public void setNumber(int num) {
+        this.number = num;
+    }
+
+    public void deposit(double amount) {
+        this.balance += amount;
+    }
+
+    public void withdrawl (double amount) {
+        if ( this.balance > amount )
+            this.balance -= amount;
+        else
+            mOut.println("Insufficient Funds");
+    }
+
+
+
+    /* accessor: display the infomation of the object*/
+    public String getName() {
+        return this.name;
+    }
+
+    public int getNumber() {
+        return this.number;
+    }
+
+    public double getBalance() {
+        return this.balance;
     }
 }
