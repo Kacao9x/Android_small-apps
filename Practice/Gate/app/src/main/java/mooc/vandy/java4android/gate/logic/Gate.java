@@ -28,7 +28,7 @@ public class Gate {
      * @return false if no change in value, otherwise true if successfully set
      */
     public boolean setSwing(int dir) {
-        if( this.mSwing != dir ) {
+        if( dir== 0 || dir == 1 || dir == -1 ) {
             this.mSwing = dir;
             return true;
         }
@@ -62,7 +62,7 @@ public class Gate {
         else if ( this.getSwingDirection() == OUT )
             return "This gate is open and swings to exit the pen only";
         else if ( this.getSwingDirection() == CLOSED)
-            return "The gate is CLOSED";
+            return "This gate is closed";
         else
             return "This gate has an invalid swing direction";
     }
