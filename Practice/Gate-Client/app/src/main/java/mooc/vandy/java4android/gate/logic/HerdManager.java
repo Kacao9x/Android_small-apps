@@ -73,11 +73,12 @@ public class HerdManager {
             
             /* select the number snails In/Out through each gate*/
             int snails = 0;
-            if( gateToUse == mWestGate )
+            if( gateToUse.equals( mWestGate ))      //TO-DO create equal method in GATE ?
                 snails = random.nextInt(HERD - penSize) + 1;
-            else( gateToUse == mEastGate )
+            else                                    // gateToUse == mEast
                 snails = random.nextInt(penSize) + 1;
 
+            //int snail = random.nextInt((gateToUse == mWestGate) ? (HERD - penSize) : (penSize)) + 1;
             /* let the snail go In/Out*/
             penSize += gateToUse.thru(snails);
             mOut.println("There are currently "+ penSize
