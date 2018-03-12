@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Mon Mar 12 17:29:09 EDT 2018
+#Mon Mar 12 19:28:29 EDT 2018
 122.file=/media/kacao/Du-Lieu/Android-Project/Android-Java/Practice/Gate-Client/app/build/intermediates/res/resources-debug.ap_/res/color/abc_secondary_text_material_dark.xml
 60.set=ANDROID_RESOURCE
 129.file=/media/kacao/Du-Lieu/Android-Project/Android-Java/Practice/Gate-Client/app/build/intermediates/res/resources-debug.ap_/res/anim/snackbar_out.xml
