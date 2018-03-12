@@ -63,7 +63,7 @@ public class HerdManager {
 
         for( int i=0; i<MAX_ITERATIONS; i++) {
             Gate gateToUse = null;
-
+            /* select gate to open*/
             if( penSize == 0 )
                 gateToUse = mWestGate;
             else if( penSize == HERD )
@@ -71,9 +71,17 @@ public class HerdManager {
             else
                 gateToUse = ((random.nextBoolean()) ? mWestGate : mEastGate);
             
+            /* select the number snails In/Out through each gate*/
+            int snails = 0;
+            if( gateToUse == mWestGate )
+                snails = random.nextInt(HERD - penSize) + 1;
+            else( gateToUse == mEastGate )
+                snails = random.nextInt(penSize) + 1;
 
-            mOut.println("There are currently "+ ""
-                + " snails in the pen and " + ""
+            /* let the snail go In/Out*/
+            penSize += gateToUse.thru(snails);
+            mOut.println("There are currently "+ penSize
+                + " snails in the pen and " + (HERD - penSize)
                 + " snails in the pasture");
         }
     }

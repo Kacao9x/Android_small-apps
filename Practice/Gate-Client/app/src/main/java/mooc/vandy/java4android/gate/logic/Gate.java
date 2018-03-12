@@ -42,6 +42,12 @@ public class Gate {
         setSwing(CLOSED);
     }
 
+    /**
+     * setting the direction for the gate if it is not built
+     * in constructor
+     * @param dir
+     * @return
+     */
     public boolean open(int dir) {
         if (dir == IN || dir == OUT) {
             setSwing(dir);
