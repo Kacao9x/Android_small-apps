@@ -32,19 +32,21 @@ public class FillTheCorral {
     public void corralSnails(Gate[] corral, Random rand) {
         int snailsInPasture = 5;
         int snailsToMove = rand.nextInt(snailsInPasture);
-        Gate G = new Gate();
-        G = rand.nextInt(corral.length);
+        while (snailsInPasture >0 ) {
+            Gate G = corral[rand.nextInt(corral.length)];       //select a random Gate
 
-        if( !G.getSwingDirection ) {
-            G.thru(snailsToMove);
-
+            if (G.getSwingDirection() != 0) {
+                snailsInPasture = updateSnailInPasture(G, snailsInPasture, snailsToMove);
+            }
         }
-
 
     }
 
-    private void updateSnailInPasture(Gate corral_x) {
-        
+    /**
+     * update the number of snail in pasture after move
+     */
+    private int updateSnailInPasture(Gate corral_x, int snail, int snailMove) {
+        return snail+corral_x.thru(snailMove);
     }
 
     /**
