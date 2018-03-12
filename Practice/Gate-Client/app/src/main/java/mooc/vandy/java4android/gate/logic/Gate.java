@@ -43,7 +43,7 @@ public class Gate {
     }
 
     /**
-     * setting the direction for the gate if it is not built
+     * set the gate to swing In/Out if it is not built
      * in constructor
      * @param dir
      * @return

@@ -60,7 +60,8 @@ public class HerdManager {
         mOut.println("There are currently " + penSize 
             + " snails in the pen and " + (HERD - penSize)
             + " snails in the pasture");
-
+        
+        // TODO -- Fill your code in here so somthing here
         for( int i=0; i<MAX_ITERATIONS; i++) {
             Gate gateToUse = null;
             /* select gate to open*/
@@ -91,7 +92,6 @@ public class HerdManager {
     West Gate: This gate is closed
     There are currently 24 snails in the pen and 0 snails in the pasture*/
 
-    // TODO -- Fill your code in here so somthing here
 
 
 }
