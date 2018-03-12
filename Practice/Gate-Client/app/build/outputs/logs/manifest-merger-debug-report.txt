@@ -15,12 +15,9 @@ ADDED from /media/kacao/Du-Lieu/Android-Project/Android-Java/Practice/Gate-Clien
 		INJECTED from /media/kacao/Du-Lieu/Android-Project/Android-Java/Practice/Gate-Client/app/src/main/AndroidManifest.xml
 application
 ADDED from /media/kacao/Du-Lieu/Android-Project/Android-Java/Practice/Gate-Client/app/src/main/AndroidManifest.xml:5:5-18:19
-MERGED from [com.android.support:appcompat-v7:22.2.1] /media/kacao/Du-Lieu/Android-Project/Android-Java/Practice/Gate-Client/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:22.2.1] /media/kacao/Du-Lieu/Android-Project/Android-Java/Practice/Gate-Client/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:design:22.2.1] /media/kacao/Du-Lieu/Android-Project/Android-Java/Practice/Gate-Client/app/build/intermediates/exploded-aar/com.android.support/design/22.2.1/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:appcompat-v7:22.2.1] /media/kacao/Du-Lieu/Android-Project/Android-Java/Practice/Gate-Client/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:22.2.1] /media/kacao/Du-Lieu/Android-Project/Android-Java/Practice/Gate-Client/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:22.2.1] /media/kacao/Du-Lieu/Android-Project/Android-Java/Practice/Gate-Client/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:22.2.1] /home/kacao/.android/build-cache/656827ea7dc917119d8b1c79d4cff14f8cc77dba/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:22.2.1] /home/kacao/.android/build-cache/c8a7563366a8cb884dad1646c6393420e38d8b52/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:22.2.1] /home/kacao/.android/build-cache/5c2ad7489f590c1910963ee352ed9f268e89ca64/output/AndroidManifest.xml:22:5-20
 	android:label
 		ADDED from /media/kacao/Du-Lieu/Android-Project/Android-Java/Practice/Gate-Client/app/src/main/AndroidManifest.xml:8:9-41
 	android:supportsRtl
@@ -47,12 +44,9 @@ ADDED from /media/kacao/Du-Lieu/Android-Project/Android-Java/Practice/Gate-Clien
 		ADDED from /media/kacao/Du-Lieu/Android-Project/Android-Java/Practice/Gate-Client/app/src/main/AndroidManifest.xml:15:27-74
 uses-sdk
 INJECTED from /media/kacao/Du-Lieu/Android-Project/Android-Java/Practice/Gate-Client/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:appcompat-v7:22.2.1] /media/kacao/Du-Lieu/Android-Project/Android-Java/Practice/Gate-Client/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:22.2.1] /media/kacao/Du-Lieu/Android-Project/Android-Java/Practice/Gate-Client/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:design:22.2.1] /media/kacao/Du-Lieu/Android-Project/Android-Java/Practice/Gate-Client/app/build/intermediates/exploded-aar/com.android.support/design/22.2.1/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:appcompat-v7:22.2.1] /media/kacao/Du-Lieu/Android-Project/Android-Java/Practice/Gate-Client/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:22.2.1] /media/kacao/Du-Lieu/Android-Project/Android-Java/Practice/Gate-Client/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:22.2.1] /media/kacao/Du-Lieu/Android-Project/Android-Java/Practice/Gate-Client/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:22.2.1] /home/kacao/.android/build-cache/656827ea7dc917119d8b1c79d4cff14f8cc77dba/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:22.2.1] /home/kacao/.android/build-cache/c8a7563366a8cb884dad1646c6393420e38d8b52/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:22.2.1] /home/kacao/.android/build-cache/5c2ad7489f590c1910963ee352ed9f268e89ca64/output/AndroidManifest.xml:20:5-43
 	android:targetSdkVersion
 		INJECTED from /media/kacao/Du-Lieu/Android-Project/Android-Java/Practice/Gate-Client/app/src/main/AndroidManifest.xml
 		INJECTED from /media/kacao/Du-Lieu/Android-Project/Android-Java/Practice/Gate-Client/app/src/main/AndroidManifest.xml

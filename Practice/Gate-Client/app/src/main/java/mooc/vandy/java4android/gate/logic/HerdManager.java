@@ -30,6 +30,9 @@ public class HerdManager {
      */
     private static final int MAX_ITERATIONS = 10;
 
+    //value for simulation
+    public static final int HERD = 24;
+
     /**
      * Constructor initializes the fields.
      */
@@ -45,7 +48,41 @@ public class HerdManager {
         mEastGate.open(Gate.OUT);
     }
 
-    // TODO -- Fill your code in here
+    /**
+     * Random is used to select a gate randomly and
+     * ...move a random num of snails in/out the pens
+     * @param random
+     */
+    public void simulateHerd(Random random) {
+        int penSize = HERD;
+        //this.mOut.println("EAST Gate: This gate is closed");
+        //this.mOut.println("WEST Gate: This gate is closed");
+        mOut.println("There are currently " + penSize 
+            + " snails in the pen and " + (HERD - penSize)
+            + " snails in the pasture");
+
+        for( int i=0; i<MAX_ITERATIONS; i++) {
+            Gate gateToUse = null;
+
+            if( penSize == 0 )
+                gateToUse = mWestGate;
+            else if( penSize == HERD )
+                gateToUse = mEastGate;
+            else
+                gateToUse = ((random.nextBoolean()) ? mWestGate : mEastGate);
+            
+
+            mOut.println("There are currently "+ ""
+                + " snails in the pen and " + ""
+                + " snails in the pasture");
+        }
+    }
+
+    /* East Gate: This gate is closed
+    West Gate: This gate is closed
+    There are currently 24 snails in the pen and 0 snails in the pasture*/
+
+    // TODO -- Fill your code in here so somthing here
 
 
 }
