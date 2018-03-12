@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "/media/kacao/Du-Lieu/Android-Project/Android-Java/Practice/Gate-Client/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/home/kacao/.android/build-cache/c8a7563366a8cb884dad1646c6393420e38d8b52/output/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/media/kacao/Du-Lieu/Android-Project/Android-Java/Practice/Gate-Client/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
+        "source": "/home/kacao/.android/build-cache/c8a7563366a8cb884dad1646c6393420e38d8b52/output/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/media/kacao/Du-Lieu/Android-Project/Android-Java/Practice/Gate-Client/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/home/kacao/.android/build-cache/c8a7563366a8cb884dad1646c6393420e38d8b52/output/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/media/kacao/Du-Lieu/Android-Project/Android-Java/Practice/Gate-Client/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
+        "source": "/home/kacao/.android/build-cache/c8a7563366a8cb884dad1646c6393420e38d8b52/output/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/media/kacao/Du-Lieu/Android-Project/Android-Java/Practice/Gate-Client/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
+        "source": "/home/kacao/.android/build-cache/c8a7563366a8cb884dad1646c6393420e38d8b52/output/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/media/kacao/Du-Lieu/Android-Project/Android-Java/Practice/Gate-Client/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/home/kacao/.android/build-cache/c8a7563366a8cb884dad1646c6393420e38d8b52/output/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/media/kacao/Du-Lieu/Android-Project/Android-Java/Practice/Gate-Client/app/build/intermediates/res/merged/debug/anim/fab_out.xml",
+        "source": "/home/kacao/.android/build-cache/656827ea7dc917119d8b1c79d4cff14f8cc77dba/output/res/anim/fab_out.xml"
+    },
+    {
+        "merged": "/media/kacao/Du-Lieu/Android-Project/Android-Java/Practice/Gate-Client/app/build/intermediates/res/merged/debug/anim/snackbar_in.xml",
+        "source": "/home/kacao/.android/build-cache/656827ea7dc917119d8b1c79d4cff14f8cc77dba/output/res/anim/snackbar_in.xml"
+    },
+    {
+        "merged": "/media/kacao/Du-Lieu/Android-Project/Android-Java/Practice/Gate-Client/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
+        "source": "/home/kacao/.android/build-cache/c8a7563366a8cb884dad1646c6393420e38d8b52/output/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/media/kacao/Du-Lieu/Android-Project/Android-Java/Practice/Gate-Client/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
+        "source": "/home/kacao/.android/build-cache/c8a7563366a8cb884dad1646c6393420e38d8b52/output/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/media/kacao/Du-Lieu/Android-Project/Android-Java/Practice/Gate-Client/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
+        "source": "/home/kacao/.android/build-cache/c8a7563366a8cb884dad1646c6393420e38d8b52/output/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/media/kacao/Du-Lieu/Android-Project/Android-Java/Practice/Gate-Client/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/home/kacao/.android/build-cache/c8a7563366a8cb884dad1646c6393420e38d8b52/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/media/kacao/Du-Lieu/Android-Project/Android-Java/Practice/Gate-Client/app/build/intermediates/res/merged/debug/anim/snackbar_out.xml",
+        "source": "/home/kacao/.android/build-cache/656827ea7dc917119d8b1c79d4cff14f8cc77dba/output/res/anim/snackbar_out.xml"
+    },
+    {
+        "merged": "/media/kacao/Du-Lieu/Android-Project/Android-Java/Practice/Gate-Client/app/build/intermediates/res/merged/debug/anim/fab_in.xml",
+        "source": "/home/kacao/.android/build-cache/656827ea7dc917119d8b1c79d4cff14f8cc77dba/output/res/anim/fab_in.xml"
+    }
+]

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/kacao/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.3.2/90a3822c38ec8c996e84c16a3477ef632cbc87a3/commons-lang3-3.3.2.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="90a3822c38ec8c996e84c16a3477ef632cbc87a3">
+        <dex dex="/media/kacao/Du-Lieu/Android-Project/Android-Java/Practice/Gate/app/build/intermediates/transforms/dex/debug/folders/1000/10/commons-lang3-3.3.2_f8c580f998ec776f2e614c51586a04ad1e51850e/classes.dex" />
+    </item>
+    <item
+        jar="/media/kacao/Du-Lieu/Android-Project/Android-Java/Practice/Gate/app/build/intermediates/exploded-aar/com.android.support/design/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="1821601ddbec5ff125653097812823388700af74">
+        <dex dex="/media/kacao/Du-Lieu/Android-Project/Android-Java/Practice/Gate/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-22.2.1_d453c2248ebcff020a4f690bb4d53d0de7352648/classes.dex" />
+    </item>
+    <item
+        jar="/media/kacao/Du-Lieu/Android-Project/Android-Java/Practice/Gate/app/libs/mobilecloud.handin-1.0.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d0ffa75b489bf8eb2a13b37de382793f726a44f4">
+        <dex dex="/media/kacao/Du-Lieu/Android-Project/Android-Java/Practice/Gate/app/build/intermediates/transforms/dex/debug/folders/1000/2/mobilecloud.handin-1.0.0_41b235872a587a1a6268c0428199e42685e929ae/classes.dex" />
+    </item>
+    <item
+        jar="/media/kacao/Du-Lieu/Android-Project/Android-Java/Practice/Gate/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/libs/internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="/media/kacao/Du-Lieu/Android-Project/Android-Java/Practice/Gate/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-22.2.1_b9b7aa9b21c0b769a2c8fccf44d14770e7d17a1e/classes.dex" />
+    </item>
+    <item
+        jar="/opt/android-studio/gradle/m2repository/com/google/guava/guava/17.0/guava-17.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="9c6ef172e8de35fd8d4d8783e4821e57cdef7445">
+        <dex dex="/media/kacao/Du-Lieu/Android-Project/Android-Java/Practice/Gate/app/build/intermediates/transforms/dex/debug/folders/1000/10/guava-17.0_192ce959e4ac2c4275da9281fca50f32a6cb4cb8/classes.dex" />
+    </item>
+    <item
+        jar="/home/kacao/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.1/support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="/media/kacao/Du-Lieu/Android-Project/Android-Java/Practice/Gate/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-22.2.1_753d9b8a52288b87830cdc88e273875238d94628/classes.dex" />
+    </item>
+    <item
+        jar="/media/kacao/Du-Lieu/Android-Project/Android-Java/Practice/Gate/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="/media/kacao/Du-Lieu/Android-Project/Android-Java/Practice/Gate/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-22.2.1_862af1a12987d8c7aa1514f7dcfa4714b5094e1f/classes.dex" />
+    </item>
+    <item
+        jar="/media/kacao/Du-Lieu/Android-Project/Android-Java/Practice/Gate/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="/media/kacao/Du-Lieu/Android-Project/Android-Java/Practice/Gate/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-22.2.1_07e68a1e1a54b148d1e6a92e1f9245213cd3d952/classes.dex" />
+    </item>
+
+</items>
