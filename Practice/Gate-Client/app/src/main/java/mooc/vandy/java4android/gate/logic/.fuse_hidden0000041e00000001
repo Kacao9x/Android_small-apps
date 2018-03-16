@@ -31,28 +31,29 @@ public class FillTheCorral {
      */
     public void corralSnails(Gate[] corral, Random rand) {
         int snailsInPasture = 5;
-        int attempt = 0;                   //total attempt to corral all snail
+        int attemp = 0;                   //total attempt to corral all snail
 
-        while (snailsInPasture != 0 ) {
+        while (snailsInPasture-- != 0 ) {
             int num = rand.nextInt(corral.length);
             Gate G = corral[num];       //select a random Gate
-            int snailsToMove = rand.nextInt(snailsInPasture) + 1;
-            mOut.println("# of snail to move: "+ snailsToMove
-                        + "  Gate number: " + num
-                        + "   swing: " + G.getSwingDirection());
-            if (G.getSwingDirection() != 0) {
-                snailsInPasture -= G.thru(snailsToMove);        //decrement # of snails after move
-//                snailsInPasture += updateSnailInPasture(G,
-//                                        snailsInPasture, snailsToMove);
-                mOut.println(snailsToMove + " are trying to move through corral "
-                            + num);
-                attempt++;
-            }
+            int snailsToMove = rand.nextInt(snailsInPasture);
 
-        }
-        mOut.println("Total attempt: " + attempt);
+            mOut.println("# of snail to move: "+ snailsToMove + "   gate swing: "
+                        + G.getSwingDirection());
+//            if (G.getSwingDirection() != 0) {
+//                snailsInPasture -= G.thru(snailsToMove);
+////                snailsInPasture += updateSnailInPasture(G,
+////                                        snailsInPasture, snailsToMove);
+//                mOut.println(snailsToMove + " are trying to move through corral "
+//                            + num);
+//                attemp++;
+//            }
+//
+//        }
+//        mOut.println("Total attempt: " + attemp);
 
-    }
+
+    }}
 
     /**
      * update the number of snail in pasture after move
