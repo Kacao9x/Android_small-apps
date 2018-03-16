@@ -48,11 +48,12 @@
           <file leaf-file-name="FillTheCorral.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/src/main/java/mooc/vandy/java4android/gate/logic/FillTheCorral.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="240">
-                  <caret line="85" column="34" selection-start-line="85" selection-start-column="34" selection-end-line="85" selection-end-column="34" />
+                <state relative-caret-position="555">
+                  <caret line="44" column="32" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="32" />
                   <folding>
                     <element signature="docComment;method#corralSnails#0;class#FillTheCorral#0" expanded="false" />
                     <element signature="docComment;method#updateSnailInPasture#0;class#FillTheCorral#0" expanded="false" />
+                    <element signature="method#updateSnailInPasture#0;class#FillTheCorral#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -72,20 +73,23 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="Gate.java" pinned="false" current-in-tab="false">
+          <file leaf-file-name="Gate.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/src/main/java/mooc/vandy/java4android/gate/logic/Gate.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="270">
                   <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
-                  <folding />
+                  <folding>
+                    <element signature="e#513#514#0" expanded="true" />
+                    <element signature="e#547#548#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Logic.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="Logic.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/src/main/java/mooc/vandy/java4android/gate/logic/Logic.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="342">
+                <state relative-caret-position="1170">
                   <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
                   <folding />
                 </state>
@@ -2171,6 +2175,7 @@
           <folding>
             <element signature="docComment;method#corralSnails#0;class#FillTheCorral#0" expanded="false" />
             <element signature="docComment;method#updateSnailInPasture#0;class#FillTheCorral#0" expanded="false" />
+            <element signature="method#updateSnailInPasture#0;class#FillTheCorral#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2187,7 +2192,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
-          <folding />
+          <folding>
+            <element signature="e#513#514#0" expanded="true" />
+            <element signature="e#547#548#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2214,6 +2222,7 @@
           <folding>
             <element signature="docComment;method#corralSnails#0;class#FillTheCorral#0" expanded="false" />
             <element signature="docComment;method#updateSnailInPasture#0;class#FillTheCorral#0" expanded="false" />
+            <element signature="method#updateSnailInPasture#0;class#FillTheCorral#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2230,7 +2239,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#513#514#0" expanded="true" />
+            <element signature="e#547#548#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2241,6 +2253,7 @@
           <folding>
             <element signature="docComment;method#corralSnails#0;class#FillTheCorral#0" expanded="false" />
             <element signature="docComment;method#updateSnailInPasture#0;class#FillTheCorral#0" expanded="false" />
+            <element signature="method#updateSnailInPasture#0;class#FillTheCorral#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2257,7 +2270,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#513#514#0" expanded="true" />
+            <element signature="e#547#548#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2268,6 +2284,7 @@
           <folding>
             <element signature="docComment;method#corralSnails#0;class#FillTheCorral#0" expanded="false" />
             <element signature="docComment;method#updateSnailInPasture#0;class#FillTheCorral#0" expanded="false" />
+            <element signature="method#updateSnailInPasture#0;class#FillTheCorral#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2284,7 +2301,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#513#514#0" expanded="true" />
+            <element signature="e#547#548#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2317,6 +2337,7 @@
           <folding>
             <element signature="docComment;method#corralSnails#0;class#FillTheCorral#0" expanded="false" />
             <element signature="docComment;method#updateSnailInPasture#0;class#FillTheCorral#0" expanded="false" />
+            <element signature="method#updateSnailInPasture#0;class#FillTheCorral#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2333,7 +2354,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#513#514#0" expanded="true" />
+            <element signature="e#547#548#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2352,6 +2376,7 @@
           <folding>
             <element signature="docComment;method#corralSnails#0;class#FillTheCorral#0" expanded="false" />
             <element signature="docComment;method#updateSnailInPasture#0;class#FillTheCorral#0" expanded="false" />
+            <element signature="method#updateSnailInPasture#0;class#FillTheCorral#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2368,7 +2393,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#513#514#0" expanded="true" />
+            <element signature="e#547#548#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2387,6 +2415,7 @@
           <folding>
             <element signature="docComment;method#corralSnails#0;class#FillTheCorral#0" expanded="false" />
             <element signature="docComment;method#updateSnailInPasture#0;class#FillTheCorral#0" expanded="false" />
+            <element signature="method#updateSnailInPasture#0;class#FillTheCorral#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2403,7 +2432,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#513#514#0" expanded="true" />
+            <element signature="e#547#548#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2414,6 +2446,7 @@
           <folding>
             <element signature="docComment;method#corralSnails#0;class#FillTheCorral#0" expanded="false" />
             <element signature="docComment;method#updateSnailInPasture#0;class#FillTheCorral#0" expanded="false" />
+            <element signature="method#updateSnailInPasture#0;class#FillTheCorral#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2493,29 +2526,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/mooc/vandy/java4android/gate/logic/Gate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/mooc/vandy/java4android/gate/logic/Logic.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
+        <state relative-caret-position="1170">
           <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/mooc/vandy/java4android/gate/logic/Gate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+          <folding>
+            <element signature="e#513#514#0" expanded="true" />
+            <element signature="e#547#548#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/mooc/vandy/java4android/gate/logic/FillTheCorral.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="85" column="34" selection-start-line="85" selection-start-column="34" selection-end-line="85" selection-end-column="34" />
+        <state relative-caret-position="555">
+          <caret line="44" column="32" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="32" />
           <folding>
             <element signature="docComment;method#corralSnails#0;class#FillTheCorral#0" expanded="false" />
             <element signature="docComment;method#updateSnailInPasture#0;class#FillTheCorral#0" expanded="false" />
+            <element signature="method#updateSnailInPasture#0;class#FillTheCorral#0" expanded="false" />
           </folding>
         </state>
       </provider>

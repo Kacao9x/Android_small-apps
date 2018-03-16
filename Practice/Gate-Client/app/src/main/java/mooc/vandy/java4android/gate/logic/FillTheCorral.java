@@ -30,7 +30,7 @@ public class FillTheCorral {
      *
      */
     public void corralSnails(Gate[] corral, Random rand) {
-        int snailsInPasture = 5;
+        int snailsInPasture = 10;
         int attempt = 0;                   //total attempt to corral all snail
 
         while (snailsInPasture != 0 ) {
@@ -41,9 +41,9 @@ public class FillTheCorral {
                         + "  Gate number: " + num
                         + "   swing: " + G.getSwingDirection());
             if (G.getSwingDirection() != 0) {
-                snailsInPasture -= G.thru(snailsToMove);        //decrement # of snails after move
-//                snailsInPasture += updateSnailInPasture(G,
-//                                        snailsInPasture, snailsToMove);
+//                snailsInPasture -= G.thru(snailsToMove);        //decrement # of snails after move
+                snailsInPasture = updateSnailInPasture(G,
+                                        snailsInPasture, snailsToMove);
                 mOut.println(snailsToMove + " are trying to move through corral "
                             + num);
                 attempt++;
@@ -57,8 +57,8 @@ public class FillTheCorral {
     /**
      * update the number of snail in pasture after move
      */
-    private int updateSnailInPasture(Gate corral_x, int snail, int snailMove) {
-        return snail+corral_x.thru(snailMove);
+    private int updateSnailInPasture(Gate corral_x, int totalSnail, int snailMove) {
+        return totalSnail - corral_x.thru(snailMove);
     }
 
     /**
@@ -78,17 +78,17 @@ public class FillTheCorral {
      * set the direction of the gate's swing for the corral array
      */
     public void setCorralGates(Gate[] corral, Random random) {
-        int[] gateSwing = {-1, 0, 1};
+        int[] gateSwing = {Gate.OUT, Gate.IN, Gate.CLOSED};
         for (int i=0; i < corral.length; i++) {
             corral[i].open(random.nextInt(gateSwing.length));
 
-            if(corral[i].getSwingDirection() == 0)
+            if(corral[i].getSwingDirection() == Gate.CLOSED)
                 mOut.println("Gate " + i +": This gate is CLOSED");
             else {
                 mOut.print("Gate " + i +": This gate is open and swings to ");
-                if(corral[i].getSwingDirection() == 1)
+                if(corral[i].getSwingDirection() == Gate.IN)
                     mOut.println("ENTER");
-                else if(corral[i].getSwingDirection() == -1)
+                else if(corral[i].getSwingDirection() == Gate.OUT)
                     mOut.println("EXIT");
             }
         }
