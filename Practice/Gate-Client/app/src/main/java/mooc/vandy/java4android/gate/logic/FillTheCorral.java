@@ -35,7 +35,10 @@ public class FillTheCorral {
 
         while (snailsInPasture != 0 ) {
             int num = rand.nextInt(corral.length);
-            Gate G = corral[num];       //select a random Gate
+            /* select random Gate*/
+            Gate G = corral[num];
+
+            /* select random amount of snail to move */
             int snailsToMove = rand.nextInt(snailsInPasture) + 1;
             mOut.println("# of snail to move: "+ snailsToMove
                         + "  Gate number: " + num
@@ -68,7 +71,7 @@ public class FillTheCorral {
     public boolean anyCorralAvailable(Gate[] corral) {
         int i, count = 0;
         for (i=0; i<corral.length; i++) {
-            if( corral[i].getSwingDirection() == 1)
+            if( corral[i].getSwingDirection() != Gate.CLOSED )
                 count++;
         }
         return (count != 0 ? true: false);
@@ -80,6 +83,7 @@ public class FillTheCorral {
     public void setCorralGates(Gate[] corral, Random random) {
         int[] gateSwing = {Gate.OUT, Gate.IN, Gate.CLOSED};
         for (int i=0; i < corral.length; i++) {
+            /* define the direction of the gate swing randomly*/
             corral[i].open(random.nextInt(gateSwing.length));
 
             if(corral[i].getSwingDirection() == Gate.CLOSED)
